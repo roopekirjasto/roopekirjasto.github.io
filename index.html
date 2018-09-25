@@ -112,12 +112,14 @@
 
 <body>
 
-  <form>
+  <form method="POST" action="https://formspree.io/roopekirjasto@gmail.com">
     <h1>to: Kirjastoon </h1>
 
     <div id="from">
       <label for="name">nimi:</label>
       <input type="text" id="name" required name="user_name">
+      <input type="hidden" name="_language" value="fi" />
+      <input type="text" name="_gotcha" style="display:none" />
     </div>
 
     <div id="reply">
