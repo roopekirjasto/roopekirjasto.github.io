@@ -36,13 +36,26 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/bg01.jpg': 'center',
-							'images/bg02.jpg': 'center',
-							'images/bg03.jpg': 'center'
+							'images/plan/01.jpg': 'center',
+							'images/plan/02.jpg': 'center',
+							'images/plan/03.jpg': 'center',
+							'images/plan/04.jpg': 'center',
+							'images/plan/05.jpg': 'center',
+							'images/plan/06.jpg': 'center',
+							'images/plan/07.jpg': 'center',
+							'images/plan/08.jpg': 'center',
+							'images/plan/09.jpg': 'center',
+							'images/plan/10.jpg': 'center',
+							'images/plan/11.jpg': 'center',
+							'images/plan/12.jpg': 'center',
+							'images/plan/13.jpg': 'center',
+							'images/plan/14.jpg': 'center',
+							'images/plan/15.jpg': 'center',
+							'images/plan/16.jpg': 'center',
 						},
 
 					// Delay.
-						delay: 6000
+						delay: 9000
 
 				};
 
