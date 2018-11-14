@@ -1,5 +1,56 @@
 body {
-    background: navy;
     margin: 0;
     padding: 0;
+}
+
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#72c166;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.hupsut, .luonto, .eläimet, .tunteita, .jannitys, .kaytavilla, .harrastukset {
+    padding-left: 20px;
+}
+
+h3 {
+    border-top: 3px dotted #19b7e7;
+    font-size: 1.3em;
+    color: #72c166;
+}
+
+.otsikko {
+    padding-top: 10px;
+}
+
+.nimi {
+    font-weight: bold;
 }
