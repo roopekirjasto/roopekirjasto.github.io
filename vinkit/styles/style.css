@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-width: 920px;
+    max-width: 860px;
     margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ li {
     padding-bottom: 5px;
 }
 
-.hupsut, .luonto, .eläimet, .tunteita, .jannitys, .kaytavilla, .harrastukset {
+.hupsut, .luonto, .eläimet, .tunteita, .jannitys, .kaytavilla, .harrastukset, .leikkia, .runoja {
     padding-left: 20px;
 }
 
@@ -49,8 +49,17 @@ h3 {
 
 .otsikko {
     padding-top: 10px;
+    margin: 0 20px;
 }
 
 .nimi {
     font-weight: bold;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer img {
+    float: right;
 }
