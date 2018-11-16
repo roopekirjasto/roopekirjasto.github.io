@@ -37,7 +37,7 @@ li {
     padding-bottom: 5px;
 }
 
-.hupsut, .luonto, .eläimet, .tunteita, .jannitys, .kaytavilla, .harrastukset, .leikkia, .runoja {
+.hupsut, .luonto, .eläimet, .tunteita, .jannitys, .kaytavilla, .harrastukset, .leikkia, .runoja, .ekatoka {
     padding-left: 20px;
 }
 
@@ -48,8 +48,28 @@ h3 {
 }
 
 .otsikko {
+    border-top: 3px dotted #19b7e7;
+    font-size: 1.3em;
+    color: #72c166;
     padding-top: 10px;
     margin: 0 20px;
+}
+
+.otsikko1_2 {
+    border-top: 3px dotted #19b7e7;
+    font-size: 1.3em;
+    color: #ff731a;
+    padding-top: 10px;
+    margin: 0 20px;
+}
+
+
+
+.alaotsikko {
+    font-size: 1.25em;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
 }
 
 .nimi {
@@ -62,4 +82,35 @@ h3 {
 
 .footer img {
     float: right;
+}
+
+.ala_otsikko {
+    max-width: 860px;
+}
+
+.taso {
+    position: relative;
+    top: 50px;
+}
+
+.nimi2 {
+    position: relative;
+    bottom: 9px;
+    font-weight: bold;
+}
+
+.nimi3 {
+    position: relative;
+    bottom: 9px;
+}
+
+.listat {
+    position: relative;
+    bottom: 9px;
+    margin-left: 37px;
+}
+
+.pitkat {
+    padding-left: 37px;
+    
 }
