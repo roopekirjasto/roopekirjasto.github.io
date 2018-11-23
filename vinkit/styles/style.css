@@ -118,5 +118,10 @@ h3 {
 
 .pitkat {
     padding-left: 37px;
-    
+}
+
+.pitkat2 {
+    padding-left: 37px;
+    position: relative;
+    top: -15px;
 }
