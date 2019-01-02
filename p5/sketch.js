@@ -29,7 +29,7 @@ function gotData(data) {
             	for (var b = 0; b < articles.length; b++) {
                 createElement('p', 'Hyllypaikka: ' + articles[b].rawData.classification_str_mv[1]).addClass('btn btn-lg btn-success');
                 	for (var y = 0; y < articles.length; y++) {
-                		createA('', articles[y].rawData.url[1])('btn btn-lg btn-primary');
+                		createA('', articles[y].rawData.url[0])('btn btn-lg btn-primary');
         	}
         }
 			}
