@@ -4,16 +4,22 @@ html, body {
   padding: 0;
 }
 
+a:link, a:visited {
+	color: #42a1ec;
+}
+
+.author {
+	font-variant: small-caps;
+}
 
 input {
   padding: 13px;
-  color: #444;
+  color: #000;
   background: #fff;
 }
 
 .inner2 {
-  background: #000;
-  color: pink;
+  color: #fff;
 }
 
 
@@ -55,13 +61,11 @@ a:hover {
 }
 
 .site-wrapper-inner {
-  background: #ccc;
-  padding: 0;
+	background-color: #61c5e0;
+  color: #ffffff;
+  background: linear-gradient(45deg, #61c5e0 0%, #61c5e0 50%, #50bfdd 50%, #50bfdd 100%);
 }
-
-.site-wrapper {
   
-}
 /*
  * Base structure
  */
@@ -69,7 +73,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #000;
+	background: url(bg.jpg);
 }
 body {
   color: #fff;
@@ -77,8 +81,24 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+.cover-heading {
+  border-radius: 4px;
+	background: #ff0097;
+  padding: 10px;
+}
+
+.form-input {
+  border-radius: 4px;
+  text-align: center;
+  width: 500px;
+  padding: 20px;
+  font-size: 30px;
+  color: #ff0097;
+}
+
 .nappula {
-  background: #000;
+  margin-top: 5px;
+  background: transparent;
   border: none;
   -webkit-transition: color 1s ease-out;
   -moz-transition: color 1s ease-out;
@@ -87,13 +107,13 @@ body {
 }
 
 .nappula:hover {
-  color: #07c;
+  color: #ff0097;
   cursor: pointer;
 }
 
 .fa-search {
-  font-size: 22px;
-  background: #000;
+  font-size: 30px;
+  background: transparent;
   border: none;
 }
 
